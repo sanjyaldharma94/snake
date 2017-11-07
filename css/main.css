@@ -5,6 +5,13 @@ padding: 0;
 margin:0;
 outline: none;
 }
+body{
+	text-align: center;
+	background-color: cyan;
+}
+canvas{
+	padding-top: 100px;
+}
 #gc {
 	text-align; center;
 }

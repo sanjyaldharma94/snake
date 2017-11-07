@@ -29,7 +29,7 @@ var ctx = canv.getContext("2d");
 	}
 
 
-	ctx.fillStyle="black";
+	ctx.fillStyle="orangered";
 	ctx.fillRect(0,0,canv.width,canv.height);
 
 ctx.fillStyle="green";
@@ -49,7 +49,7 @@ while(trail.length>tail){
  	ay=Math.floor(Math.random()*tc);
  }
 
-	ctx.fillStyle="red";
+	ctx.fillStyle="blue";
 	ctx.fillRect(ax*gs, ay*gs, gs-2, gs-2);
 }
 function keyPush(evt){
