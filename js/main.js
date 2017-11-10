@@ -2,14 +2,14 @@ window.onload =function(){
 var	canv = document.getElementById('gc');
 var ctx = canv.getContext("2d");
 document.addEventListener('keydown',keyPush);
-setInterval(game, 1000/15);
+setInterval(game, 1000/10);
 }
 px=py=10;
 gs=tc=20;
 ax=ay=0;
 xv=yv=0;
 trail =[];
-tail = 5
+tail = 5;
 function game(){
 	var	canv = document.getElementById('gc');
 var ctx = canv.getContext("2d");
